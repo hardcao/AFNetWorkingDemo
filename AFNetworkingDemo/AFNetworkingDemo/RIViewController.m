@@ -26,7 +26,6 @@ static NSString * const kDefaultTableCellID = @"TableViewCell";
 {
     [super viewDidLoad];
     [self reloadData];
-    [self.tableView reloadData];
     
 	// Do any additional setup after loading the view, typically from a nib.
 }
@@ -75,6 +74,9 @@ static NSString * const kDefaultTableCellID = @"TableViewCell";
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     return 44;
+}
+- (IBAction)uploadDataButtonTap:(id)sender {
+    [self reloadData];
 }
 
 

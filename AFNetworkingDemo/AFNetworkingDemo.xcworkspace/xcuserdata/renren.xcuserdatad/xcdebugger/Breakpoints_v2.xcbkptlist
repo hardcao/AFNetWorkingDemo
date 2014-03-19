@@ -10,28 +10,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "AFNetworkingDemo/RIViewController.m"
-            timestampString = "416905022.506204"
+            timestampString = "416906283.617682"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "67"
-            endingLineNumber = "67"
-            landmarkName = "-tableView:cellForRowAtIndexPath:"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "AFNetworkingDemo/RITableViewCell.m"
-            timestampString = "416905022.506204"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "16"
-            endingLineNumber = "16"
-            landmarkName = "-initCellWithUser:"
+            startingLineNumber = "79"
+            endingLineNumber = "79"
+            landmarkName = "-uploadDataButtonTap:"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
