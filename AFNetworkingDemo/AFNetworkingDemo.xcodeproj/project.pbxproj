@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		61A620FCBE2F4E35AB292325 /* libPods-AFNetworkingDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A8D208BC063543E2B6979579 /* libPods-AFNetworkingDemo.a */; };
+		7714480E18D93E3100EBBC7C /* RITableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7714480D18D93E3100EBBC7C /* RITableViewCell.m */; };
+		7714481018D94D8100EBBC7C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7714480F18D94D8100EBBC7C /* Default-568h@2x.png */; };
+		775F386118D832C000C40EC6 /* profile-image-placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = 775F385F18D832C000C40EC6 /* profile-image-placeholder.png */; };
+		775F386218D832C000C40EC6 /* profile-image-placeholder@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 775F386018D832C000C40EC6 /* profile-image-placeholder@2x.png */; };
+		775F386818D84F4500C40EC6 /* RIAFClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 775F386718D84F4500C40EC6 /* RIAFClient.m */; };
+		775F386B18D854C100C40EC6 /* MUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 775F386A18D854C100C40EC6 /* MUser.m */; };
 		7797247618D82A900086B665 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7797247518D82A900086B665 /* Foundation.framework */; };
 		7797247818D82A900086B665 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7797247718D82A900086B665 /* CoreGraphics.framework */; };
 		7797247A18D82A900086B665 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7797247918D82A900086B665 /* UIKit.framework */; };
@@ -16,7 +22,6 @@
 		7797248618D82A900086B665 /* RIAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7797248518D82A900086B665 /* RIAppDelegate.m */; };
 		7797248918D82A900086B665 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7797248718D82A900086B665 /* Main.storyboard */; };
 		7797248C18D82A900086B665 /* RIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7797248B18D82A900086B665 /* RIViewController.m */; };
-		7797248E18D82A900086B665 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7797248D18D82A900086B665 /* Images.xcassets */; };
 		7797249518D82A900086B665 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7797249418D82A900086B665 /* XCTest.framework */; };
 		7797249618D82A900086B665 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7797247518D82A900086B665 /* Foundation.framework */; };
 		7797249718D82A900086B665 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7797247918D82A900086B665 /* UIKit.framework */; };
@@ -35,6 +40,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7714480C18D93E3100EBBC7C /* RITableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RITableViewCell.h; sourceTree = "<group>"; };
+		7714480D18D93E3100EBBC7C /* RITableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RITableViewCell.m; sourceTree = "<group>"; };
+		7714480F18D94D8100EBBC7C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		775F385F18D832C000C40EC6 /* profile-image-placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "profile-image-placeholder.png"; sourceTree = "<group>"; };
+		775F386018D832C000C40EC6 /* profile-image-placeholder@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "profile-image-placeholder@2x.png"; sourceTree = "<group>"; };
+		775F386618D84F4500C40EC6 /* RIAFClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RIAFClient.h; path = Manager/RIAFClient.h; sourceTree = "<group>"; };
+		775F386718D84F4500C40EC6 /* RIAFClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RIAFClient.m; path = Manager/RIAFClient.m; sourceTree = "<group>"; };
+		775F386918D854C100C40EC6 /* MUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MUser.h; path = Model/MUser.h; sourceTree = "<group>"; };
+		775F386A18D854C100C40EC6 /* MUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MUser.m; path = Model/MUser.m; sourceTree = "<group>"; };
 		7797247218D82A900086B665 /* AFNetworkingDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AFNetworkingDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7797247518D82A900086B665 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7797247718D82A900086B665 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -48,7 +62,6 @@
 		7797248818D82A900086B665 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7797248A18D82A900086B665 /* RIViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RIViewController.h; sourceTree = "<group>"; };
 		7797248B18D82A900086B665 /* RIViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RIViewController.m; sourceTree = "<group>"; };
-		7797248D18D82A900086B665 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		7797249318D82A900086B665 /* AFNetworkingDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AFNetworkingDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7797249418D82A900086B665 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		7797249C18D82A900086B665 /* AFNetworkingDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AFNetworkingDemoTests-Info.plist"; sourceTree = "<group>"; };
@@ -83,9 +96,56 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7714481118D96BF900EBBC7C /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+		775F385E18D8325800C40EC6 /* soucre */ = {
+			isa = PBXGroup;
+			children = (
+				775F385F18D832C000C40EC6 /* profile-image-placeholder.png */,
+				775F386018D832C000C40EC6 /* profile-image-placeholder@2x.png */,
+			);
+			name = soucre;
+			sourceTree = "<group>";
+		};
+		775F386418D84D9D00C40EC6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7797248718D82A900086B665 /* Main.storyboard */,
+				7797248A18D82A900086B665 /* RIViewController.h */,
+				7797248B18D82A900086B665 /* RIViewController.m */,
+				7714480C18D93E3100EBBC7C /* RITableViewCell.h */,
+				7714480D18D93E3100EBBC7C /* RITableViewCell.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		775F386518D84E9300C40EC6 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				775F386618D84F4500C40EC6 /* RIAFClient.h */,
+				775F386718D84F4500C40EC6 /* RIAFClient.m */,
+			);
+			name = Manager;
+			sourceTree = "<group>";
+		};
+		775F386C18D854C800C40EC6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				775F386918D854C100C40EC6 /* MUser.h */,
+				775F386A18D854C100C40EC6 /* MUser.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		7797246918D82A900086B665 = {
 			isa = PBXGroup;
 			children = (
+				7714480F18D94D8100EBBC7C /* Default-568h@2x.png */,
 				7797247B18D82A900086B665 /* AFNetworkingDemo */,
 				7797249A18D82A900086B665 /* AFNetworkingDemoTests */,
 				7797247418D82A900086B665 /* Frameworks */,
@@ -118,10 +178,11 @@
 		7797247B18D82A900086B665 /* AFNetworkingDemo */ = {
 			isa = PBXGroup;
 			children = (
-				7797248718D82A900086B665 /* Main.storyboard */,
-				7797248A18D82A900086B665 /* RIViewController.h */,
-				7797248B18D82A900086B665 /* RIViewController.m */,
-				7797248D18D82A900086B665 /* Images.xcassets */,
+				7714481118D96BF900EBBC7C /* iPad */,
+				775F386C18D854C800C40EC6 /* Model */,
+				775F386518D84E9300C40EC6 /* Manager */,
+				775F386418D84D9D00C40EC6 /* View */,
+				775F385E18D8325800C40EC6 /* soucre */,
 				7797247C18D82A900086B665 /* Supporting Files */,
 			);
 			path = AFNetworkingDemo;
@@ -208,6 +269,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = renren;
 				TargetAttributes = {
+					7797247118D82A900086B665 = {
+						DevelopmentTeam = UECH3VPJ68;
+					};
 					7797249218D82A900086B665 = {
 						TestTargetID = 7797247118D82A900086B665;
 					};
@@ -237,9 +301,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7797248E18D82A900086B665 /* Images.xcassets in Resources */,
+				775F386118D832C000C40EC6 /* profile-image-placeholder.png in Resources */,
 				7797248018D82A900086B665 /* InfoPlist.strings in Resources */,
 				7797248918D82A900086B665 /* Main.storyboard in Resources */,
+				7714481018D94D8100EBBC7C /* Default-568h@2x.png in Resources */,
+				775F386218D832C000C40EC6 /* profile-image-placeholder@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,7 +357,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7714480E18D93E3100EBBC7C /* RITableViewCell.m in Sources */,
+				775F386818D84F4500C40EC6 /* RIAFClient.m in Sources */,
 				7797248218D82A900086B665 /* main.m in Sources */,
+				775F386B18D854C100C40EC6 /* MUser.m in Sources */,
 				7797248618D82A900086B665 /* RIAppDelegate.m in Sources */,
 				7797248C18D82A900086B665 /* RIViewController.m in Sources */,
 			);
@@ -418,11 +487,13 @@
 			baseConfigurationReference = C023B747D7204025A6D772F3 /* Pods-AFNetworkingDemo.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AFNetworkingDemo/AFNetworkingDemo-Prefix.pch";
 				INFOPLIST_FILE = "AFNetworkingDemo/AFNetworkingDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -432,11 +503,13 @@
 			baseConfigurationReference = C023B747D7204025A6D772F3 /* Pods-AFNetworkingDemo.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AFNetworkingDemo/AFNetworkingDemo-Prefix.pch";
 				INFOPLIST_FILE = "AFNetworkingDemo/AFNetworkingDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
